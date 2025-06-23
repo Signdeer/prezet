@@ -47,7 +47,7 @@ class FrontmatterData extends ValidatedDTO
     public array $tags;
 
 
-    #[Rules(['keywords'])]
+    #[Rules(['array'])]
     public array $keywords;
 
     #[Rules(['nullable', 'string'])] //e.g. stacked-peaks-haikei
