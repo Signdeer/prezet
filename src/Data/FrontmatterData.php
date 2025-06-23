@@ -57,7 +57,7 @@ class FrontmatterData extends ValidatedDTO
     public ?string $bg_pattern_class;
 
     #[Rules(['nullable', 'bool'])]
-    public ?bool $bg_patternrepeat;
+    public ?bool $bg_pattern_repeat;
 
     /**
      * @return array<string, array<int, null>|false>
