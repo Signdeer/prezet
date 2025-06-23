@@ -46,6 +46,7 @@ class DocumentData extends ValidatedDTO
     #[Rules(['required'])]
     public Carbon $updatedAt;
 
+    
     /**
      * @return array<string, array<int, null>|false>
      */

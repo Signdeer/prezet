@@ -46,6 +46,19 @@ class FrontmatterData extends ValidatedDTO
     #[Rules(['array'])]
     public array $tags;
 
+
+    #[Rules(['keywords'])]
+    public array $keywords;
+
+    #[Rules(['nullable', 'string'])] //e.g. stacked-peaks-haikei
+    public ?string $pattern;
+
+    #[Rules(['nullable', 'string'])] //e.g. bg-no-repeat bg-cover bg-center
+    public ?string $pattern_class;
+
+    #[Rules(['nullable', 'bool'])]
+    public ?bool $pattern_bg_repeat;
+
     /**
      * @return array<string, array<int, null>|false>
      */

@@ -58,7 +58,7 @@
 1.  **Install the Prezet framework:**
     ```bash
     # Install the framework package
-    composer require prezet/prezet
+    composer require signdeer/prezet
 
     # Run the framework installer
     php artisan prezet:install
