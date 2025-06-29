@@ -1,12 +1,4 @@
-<div align="center">
-    <img src="https://prezet.com/ogimage.png" width="600" alt="PREZET">
-</div>
-
-<p align="center">
-<a href="https://packagist.org/packages/prezet/prezet"><img src="https://img.shields.io/packagist/v/prezet/prezet.svg?style=flat-square" alt="Latest Version on Packagist"></a>
-<a href="https://github.com/prezet/prezet/actions?query=workflow%3Arun-tests+branch%3Amain"><img src="https://img.shields.io/github/actions/workflow/status/prezet/prezet/run-tests.yml?branch=main&label=tests&style=flat-square" alt="GitHub Tests Action Status"></a>
-<a href="https://github.com/prezet/prezet/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain"><img src="https://img.shields.io/github/actions/workflow/status/prezet/prezet/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square" alt="GitHub Code Style Action Status"></a>
-</p>
+This fork is maintained by [Signdeer](https://signdeer.com), a secure, modern platform for e-signatures, approvals, and digital document workflows built for African teams and global standards.
 
 # Prezet: Markdown Blogging for Laravel
 
