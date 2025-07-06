@@ -17,6 +17,8 @@ class MarkdownBladeExtension implements ExtensionInterface, NodeRendererInterfac
 {
     public static bool $allowBladeForNextDocument = false;
 
+  
+
     public function register(EnvironmentBuilderInterface $environment): void
     {
         $environment->addRenderer(FencedCode::class, $this, 100);
